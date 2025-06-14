@@ -47,46 +47,61 @@ class Page
     // Note: The correct post data will be displayed within the HTML input control object
     static function showForm($valid_status)
     {
-
-            ?>
-            <article>
-                <section class="main">
-                    <!-- Start the page's form -->
-                    <div class="form">
-                        <form action="" method="post">
-                            <fieldset id="form">
-                                <legend>Douglas Custom Build Order Page</legend>
-                                <div>
-                                    <label for="fullName">Full Name</label>
-                                    <input type="text" name="fullName" id="fullName" placeholder="First and last name">
-                                </div>
-                                <div>
-                                    <label for="email">Email Address</label>
-                                    <input type="email" name="email" id="email" placeholder="someone@here.ca">
-                                </div>
-                                <div>
-                                    <label for="phoneNumber">Phone Number</label>
-                                    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="(nnn) nnn nnnn">
-                                </div>
-                                <div>
-                                    <label for="productAmount">Product Amount</label>
-                                    <input type="text" name="productAmount" id="productAmount"
-                                        placeholder="number of product less than 7">
-                                </div>
-                                <div>
-                                    <label for="giftWrap">Gift wrap?</label>
-                                    <span>
-                                        <input type="radio" name="giftWrap" id="giftWrapYes" value="yes"> Yes
-                                        <input type="radio" name="giftWrap" id="giftWrapNo" value="no"> No
+        global $shippingCost;
+        print_r($valid_status);
+        ?>
+        <article>
+            <section class="main">
+                <!-- Start the page's form -->
+                <div class="form">
+                    <form action="" method="post">
+                        <fieldset id="form">
+                            <legend>Douglas Custom Build Order Page</legend>
+                            <div>
+                                <label for="fullName">Full Name</label>
+                                <input type="text" name="fullName" id="fullName" placeholder="First and last name"
+                                    value="<?= $valid_status['name_value'] ?>">
+                            </div>
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="email" placeholder="someone@here.ca"
+                                    value=<?= $valid_status['email_value'] ?>>
+                            </div>
+                            <div>
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="(nnn) nnn nnnn"
+                                    value=<?= $valid_status['phone_value'] ?>>
+                            </div>
+                            <div>
+                                <label for="productAmount">Product Amount</label>
+                                <input type="text" name="productAmount" id="productAmount"
+                                    placeholder="number of product less than 7" value=<?= $valid_status['product_value'] ?>>
+                            </div>
+                            <div>
+                                <label for="giftWrap">Gift wrap?</label>
+                                <span>
+                                    <input type="radio" name="giftWrap" id="giftWrapYes" value="yes" <?php if ($valid_status['wrap_value'] === 'yes')
+                                        echo 'checked' ?>> Yes
+                                        <input type="radio" name="giftWrap" id="giftWrapNo" value="no" <?php if ($valid_status['wrap_value'] === 'no')
+                                        echo 'checked' ?>> No
                                     </span>
                                 </div>
                                 <div>
                                     <label for="shipping">Shipping Priority</label>
                                     <select name="shipping">
                                         <option value="Select...">Please select one option</option>
-                                        <option value="regular">Regular - $6</option>
+                                        <!-- <option value="regular">Regular - $6</option>
                                         <option value="express">Express - $15</option>
-                                        <option value="priority">Priority - $25</option>
+                                        <option value="priority">Priority - $25</option> -->
+                                        <?php
+                                    foreach ($shippingCost as $key => $val){
+                                        if (strtolower($key) === $valid_status['shipping_value'] ){
+                                            echo "<option value=\"" . strtolower($key) . "\" selected>{$key} - {$val}</option>";
+                                        } else {
+                                            echo "<option value=\"" . strtolower($key) . "\">{$key} - {$val}</option>";
+                                        }
+                                    }
+                                            ?>
                                     </select>
                                 </div>
                                 <div>
@@ -97,9 +112,9 @@ class Page
                         </form>
                     </div>
                 </section>
-                <?php
+            <?php
 
-        
+
     }
 
     // This static function read the validation status property of the Validate class 
@@ -116,7 +131,7 @@ class Page
                         <li>Error 2</li>
                     </ul>
                 </div>
-            <?php
+                <?php
 
     }
 

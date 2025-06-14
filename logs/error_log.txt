@@ -36,3 +36,86 @@ Stack trace:
 [14-Jun-2025 12:08:30 America/Vancouver] NAME: empty or wrong format
 [14-Jun-2025 12:08:30 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 25
 [14-Jun-2025 12:08:30 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 26
+[14-Jun-2025 12:21:54 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 12:21:54 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 12:21:54 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 12:21:54 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 12:21:54 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 12:21:54 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 12:21:54 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 25
+[14-Jun-2025 12:21:54 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 26
+[14-Jun-2025 12:36:51 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 12:36:51 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 12:36:51 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 12:36:51 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 12:36:51 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 12:36:51 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 12:36:51 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 26
+[14-Jun-2025 12:36:51 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 27
+[14-Jun-2025 12:47:47 America/Vancouver] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 60
+[14-Jun-2025 12:50:01 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 12:50:01 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 12:50:01 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 12:55:30 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 12:55:30 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 12:55:30 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:01:36 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:01:36 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:01:48 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:01:48 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:01:48 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:03:49 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:03:49 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:03:56 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:03:56 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:05:45 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 13:05:45 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 13:05:45 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:05:45 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:05:45 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:07:54 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:07:54 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:07:54 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:08:03 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:08:03 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 13:25:31 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:25:31 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:25:45 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:25:45 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:35:10 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:35:10 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:35:10 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:35:10 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:35:10 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:03 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 13:36:03 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 13:36:03 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 13:36:03 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:36:03 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:36:03 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:03 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:03 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:15 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 13:36:15 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 13:36:15 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 13:36:15 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:36:15 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:36:15 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:15 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:36:15 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:20 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 13:40:20 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 13:40:20 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 13:40:20 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:40:20 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:40:20 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:20 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:20 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:37 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 13:40:37 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 13:40:37 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 13:40:37 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 13:40:37 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 13:40:37 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:37 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98
+[14-Jun-2025 13:40:37 America/Vancouver] PHP Warning:  Undefined array key "shipping_value" in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 98

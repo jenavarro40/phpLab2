@@ -19,8 +19,9 @@ page::getHeader();
 
 if(isset($_POST['submit'])){ // you can check with isset() or !empty()
    $status=Validate::validateForm();
-    $validate_status = $status[0];
-    $flagStatus = $status[1];
+    $valid_status = $status[0];
+    $error_status = $status[1];
+    $flagStatus = $status[2];
     if ($flagStatus) {        
         page::ShowNotification($valid_status);
         page::showForm($valid_status);
@@ -28,7 +29,13 @@ if(isset($_POST['submit'])){ // you can check with isset() or !empty()
         page::showData($shippingCost);
     }
 }else{
-    page::showForm([]);
+    page::showForm
+    (array('name_value'=>null
+    ,'email_value'=>null
+    ,'phone_value'=>null
+    ,'product_value'=>null
+    ,'wrap_value'=>null
+    ,'shipping_value'=>null));
 }
 
 
