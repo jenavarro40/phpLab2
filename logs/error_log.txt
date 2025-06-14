@@ -28,3 +28,11 @@ Stack trace:
 [14-Jun-2025 11:20:30 America/Vancouver] NAME: empty or wrong format
 [14-Jun-2025 11:21:39 America/Vancouver] NAME: empty or wrong format
 [14-Jun-2025 11:23:51 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:32:03 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:56:23 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 12:04:33 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 12:04:33 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 25
+[14-Jun-2025 12:04:33 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 26
+[14-Jun-2025 12:08:30 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 12:08:30 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 25
+[14-Jun-2025 12:08:30 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 26

@@ -15,18 +15,20 @@ require_once('inc/Validate.class.JNa68873.php');
 page::getHeader();
 
 // if the form was posted, validate the input and to update the valid status
-$valid_status = [];
+
 
 if(isset($_POST['submit'])){ // you can check with isset() or !empty()
-   $valid_status=Validate::validateForm();
-    if (!empty($valid_status)) {
-        page::showForm($valid_status);
+   $status=Validate::validateForm();
+    $validate_status = $status[0];
+    $flagStatus = $status[1];
+    if ($flagStatus) {        
         page::ShowNotification($valid_status);
+        page::showForm($valid_status);
     } else {
         page::showData($shippingCost);
     }
 }else{
-    page::showForm($valid_status);
+    page::showForm([]);
 }
 
 

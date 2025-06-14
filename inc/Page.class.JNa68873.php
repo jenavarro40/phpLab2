@@ -47,7 +47,7 @@ class Page
     // Note: The correct post data will be displayed within the HTML input control object
     static function showForm($valid_status)
     {
-        if (empty($valid_status)) {
+
             ?>
             <article>
                 <section class="main">
@@ -99,7 +99,7 @@ class Page
                 </section>
                 <?php
 
-        }
+        
     }
 
     // This static function read the validation status property of the Validate class 
