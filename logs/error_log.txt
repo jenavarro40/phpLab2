@@ -1,6 +1,30 @@
-[14-Jun-2025 06:49:22 America/Vancouver] Run the file in the terminal, you will see the log is saved
-[14-Jun-2025 07:26:48 America/Vancouver] PHP Warning:  require_once(inc/Page.class.JN68873.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 11
-[14-Jun-2025 07:26:48 America/Vancouver] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/Page.class.JN68873.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php:11
+[14-Jun-2025 10:56:20 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 28
+[14-Jun-2025 10:56:29 America/Vancouver] PHP Warning:  Undefined variable $valid_status in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 28
+[14-Jun-2025 10:57:37 America/Vancouver] PHP Warning:  Undefined variable $Validate in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 10:57:37 America/Vancouver] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php:21
 Stack trace:
 #0 {main}
-  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 11
+  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 11:02:06 America/Vancouver] PHP Warning:  Undefined variable $Validate in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 11:02:06 America/Vancouver] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 11:03:49 America/Vancouver] PHP Warning:  Undefined variable $Validate in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 11:03:49 America/Vancouver] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 21
+[14-Jun-2025 11:05:31 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:05:31 America/Vancouver] PHP Fatal error:  Uncaught ValueError: filter_input(): "regexp" option is missing in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Validate.class.JNa68873.php:38
+Stack trace:
+#0 C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Validate.class.JNa68873.php(38): filter_input(0, 'phoneNumber', 272, Array)
+#1 C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php(21): Validate::validateForm()
+#2 {main}
+  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Validate.class.JNa68873.php on line 38
+[14-Jun-2025 11:09:59 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:11:59 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:16:23 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:20:30 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:21:39 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 11:23:51 America/Vancouver] NAME: empty or wrong format
