@@ -15,6 +15,7 @@ class Validate{
         
         //Validate the name
         
+        
         //Validate the email address, use filter_input    
 
         //Validate the phone number, use filter_input with regexp            

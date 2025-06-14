@@ -1,0 +1,6 @@
+[14-Jun-2025 06:49:22 America/Vancouver] Run the file in the terminal, you will see the log is saved
+[14-Jun-2025 07:26:48 America/Vancouver] PHP Warning:  require_once(inc/Page.class.JN68873.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 11
+[14-Jun-2025 07:26:48 America/Vancouver] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/Page.class.JN68873.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Assign\assignment2_Jna68873\assignment3_JNa68873.php on line 11
