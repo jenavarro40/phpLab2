@@ -127,8 +127,15 @@ class Page
                 <div class="highlight">
                     <p>Please fix the following errors:</p>
                     <ul>
-                        <li>Error 1</li>
-                        <li>Error 2</li>
+                    <!--    <li>Error 1</li>
+                        <li>Error 2</li>-->
+                        <?php
+                        foreach ($valid_status as $key => $val) {
+                            echo "<li>{$val}</li>";
+                        }
+
+                        ?>
+                        
                     </ul>
                 </div>
                 <?php
@@ -142,6 +149,45 @@ class Page
     // Make sure to calculate the total cost
     static function showData($shippingCost)
     {
+
+
+        ?>
+         <div class="data">
+                    <b>Entered data is:</b>
+                    <table>
+                        
+                        <tr>
+                            <th>Name</th>
+                            <td><?=$shippingCost[0]["name_value"]?></td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td><?=$shippingCost[0]["email_value"]?></td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td><?=$shippingCost[0]["phone_value"]?></td>
+                        </tr>
+                        <tr>
+                            <th>Product Amount</th>
+                            <td><?=$shippingCost[0]["product_value"]?></td>
+                        </tr>                        
+                        <tr>
+                            <th>Gift Wrap?</th>
+                            <td><?=$shippingCost[0]["wrap_value"]?></td>
+                        </tr>
+                        <tr>                            
+                            <th>Shipping</th>                        
+                            <td><?=$shippingCost[0]["shipping_value"]?></td>                        
+                        </tr>
+                        <tr>                            
+                            <th>Total Cost</th>                        
+                            <td><?=$shippingCost[1]?></td>                        
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <?php
 
     }
 }

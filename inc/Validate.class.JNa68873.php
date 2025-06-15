@@ -25,7 +25,6 @@ class Validate
         if (empty($name) || preg_match("/^[^a-zA-Z\s]$/", $name)) {
             self::$error_status["name"] = "Please Write your Name";
             self::$valid_status["name_value"] = null;
-            $flagStatus=true;
             error_log("NAME: empty or wrong format");
         } else {
             self::$valid_status["name_value"] = $name;
@@ -36,7 +35,6 @@ class Validate
         if ($email === false) {
             self::$error_status["email"] = "Please check your email";
             self::$valid_status["email_value"] = null;
-            $flagStatus=true;
             error_log("EMAIL: empty or wrong format");
 
         } else {
@@ -50,7 +48,6 @@ class Validate
         if ($phone === false) {
             self::$error_status["phone"] = "Please check your phone";
             self::$valid_status["phone_value"] = null;
-            $flagStatus=true;
             error_log("PHONE: empty or wrong format");
         } else {
             self::$valid_status["phone_value"] = $phone;
@@ -62,7 +59,6 @@ class Validate
         if ($product === false) {
             self::$error_status["product"] = "Please check your Product amount";
             self::$valid_status["product_value"] = null;
-            $flagStatus=true;
             error_log("PRODUCT AMOUNT: empty or outside range");
         } else {
             self::$valid_status["product_value"] = $product;
@@ -72,7 +68,6 @@ class Validate
         if ($giftWrap !== 'yes' && $giftWrap !== 'no') {
             self::$error_status["wrap"] = "Please check your Product amount";
             self::$valid_status["wrap_value"] = null;
-            $flagStatus=true;
             error_log("GIFT WRAP: empty or outside range");
         } else {
             self::$valid_status["wrap_value"] = $giftWrap;
@@ -87,17 +82,16 @@ class Validate
         $shipping = filter_input(INPUT_POST, 'shipping', FILTER_SANITIZE_STRING);
         if (!in_array($shipping, $shippingCostVal)) {
             self::$error_status["shipping"] = "Please choose a shipping option";
-            self::$valid_status["shiping_value"] = null;
-            $flagStatus=true;
+            self::$valid_status["shipping_value"] = null;
             error_log("SHIPPING: empty or outside range");
         } else {
-            self::$valid_status["shiping_value"] = $shipping;
+            self::$valid_status["shipping_value"] = $shipping;
         }
 
 
         //print_r(self::$valid_status);
         //print_r([self::$valid_status,self::$error_status,$flagStatus]);
-        return [self::$valid_status,self::$error_status,$flagStatus];
+        return [self::$valid_status,self::$error_status];
 
 
     }
