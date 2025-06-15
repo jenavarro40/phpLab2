@@ -37,13 +37,14 @@ if (isset($_POST['reset'])) {
     $valid_status = $status[0];
     $error_status = $status[1];
     if (!empty($error_status)) {
-        page::ShowNotification($error_status);
         page::showForm($valid_status);
+        page::ShowNotification($error_status);
 
     } else {
 
         $totalValue = calculate::calculatevalue($shippingCost, $valid_status);
         $shippingCost = [$valid_status, $totalValue];
+        page::ShowThankyou();
         page::showData($shippingCost);
     }
 } else {

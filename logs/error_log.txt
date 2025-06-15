@@ -161,3 +161,67 @@ Stack trace:
 [14-Jun-2025 22:36:35 America/Vancouver] PRODUCT AMOUNT: empty or outside range
 [14-Jun-2025 22:36:35 America/Vancouver] GIFT WRAP: empty or outside range
 [14-Jun-2025 22:36:35 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 22:41:56 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 22:41:56 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 22:41:56 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:05:16 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:05:16 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 159
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 159
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 163
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 163
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 167
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 167
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 171
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 171
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 175
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 175
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 179
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 179
+[14-Jun-2025 23:05:16 America/Vancouver] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 183
+[14-Jun-2025 23:05:22 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:05:22 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 159
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 159
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 163
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 163
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 167
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 167
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 171
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 171
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 175
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 175
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 179
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 179
+[14-Jun-2025 23:05:22 America/Vancouver] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\Assign\assignment2_Jna68873\inc\Page.class.JNa68873.php on line 183
+[14-Jun-2025 23:06:51 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:06:51 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:06:51 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:07:31 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:07:31 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:07:31 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:07:39 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:07:39 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:07:39 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:09:01 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:09:01 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:09:01 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:09:35 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:09:35 America/Vancouver] GIFT WRAP: empty or outside range
+[14-Jun-2025 23:09:35 America/Vancouver] SHIPPING: empty or outside range
+[14-Jun-2025 23:17:17 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 23:17:17 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 23:17:17 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 23:17:17 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:17:17 America/Vancouver] GIFT WRAP: empty
+[14-Jun-2025 23:17:17 America/Vancouver] SHIPPING: empty
+[14-Jun-2025 23:18:57 America/Vancouver] NAME: empty or wrong format
+[14-Jun-2025 23:18:57 America/Vancouver] EMAIL: empty or wrong format
+[14-Jun-2025 23:18:57 America/Vancouver] PHONE: empty or wrong format
+[14-Jun-2025 23:18:57 America/Vancouver] PRODUCT AMOUNT: empty or outside range
+[14-Jun-2025 23:18:57 America/Vancouver] GIFT WRAP: empty
+[14-Jun-2025 23:18:57 America/Vancouver] SHIPPING: empty
+[14-Jun-2025 23:19:08 America/Vancouver] GIFT WRAP: empty
+[14-Jun-2025 23:21:06 America/Vancouver] GIFT WRAP: empty
+[14-Jun-2025 23:21:44 America/Vancouver] GIFT WRAP: empty
+[14-Jun-2025 23:21:44 America/Vancouver] SHIPPING: empty

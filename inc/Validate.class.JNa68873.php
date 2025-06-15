@@ -23,7 +23,7 @@ class Validate
         //Validate the name
         $name = filter_input(INPUT_POST, "fullName", FILTER_UNSAFE_RAW);
         if (empty($name) || preg_match("/^[^a-zA-Z\s]$/", $name)) {
-            self::$error_status["name"] = "Please Write your Name";
+            self::$error_status["name"] = "Please enter a valid name";
             self::$valid_status["name_value"] = null;
             error_log("NAME: empty or wrong format");
         } else {
@@ -33,7 +33,7 @@ class Validate
         //Validate the email address, use filter_input    
         $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
         if ($email === false) {
-            self::$error_status["email"] = "Please check your email";
+            self::$error_status["email"] = "Please enter a valid email address";
             self::$valid_status["email_value"] = null;
             error_log("EMAIL: empty or wrong format");
 
@@ -46,7 +46,7 @@ class Validate
         $phoneRegex = ["options" => ["regexp" => "/^\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/"]];
         $phone = filter_input(INPUT_POST, "phoneNumber", FILTER_VALIDATE_REGEXP, $phoneRegex);
         if ($phone === false) {
-            self::$error_status["phone"] = "Please check your phone";
+            self::$error_status["phone"] = "Please enter a valid 10 digits phone number";
             self::$valid_status["phone_value"] = null;
             error_log("PHONE: empty or wrong format");
         } else {
@@ -57,7 +57,7 @@ class Validate
         $productfilter = array("options" => array("min_range" => 1, "max_range" => 6));
         $product = filter_input(INPUT_POST, "productAmount", FILTER_VALIDATE_INT, $productfilter);
         if ($product === false) {
-            self::$error_status["product"] = "Please check your Product amount";
+            self::$error_status["product"] = "The number of product should be between 1 until";
             self::$valid_status["product_value"] = null;
             error_log("PRODUCT AMOUNT: empty or outside range");
         } else {
@@ -66,9 +66,9 @@ class Validate
         //Ensure one of the gift wrap options is checked
         $giftWrap = filter_input(INPUT_POST, 'giftWrap');
         if ($giftWrap !== 'yes' && $giftWrap !== 'no') {
-            self::$error_status["wrap"] = "Please check your Product amount";
+            self::$error_status["wrap"] = "Please choose the gift wrap option";
             self::$valid_status["wrap_value"] = null;
-            error_log("GIFT WRAP: empty or outside range");
+            error_log("GIFT WRAP: empty");
         } else {
             self::$valid_status["wrap_value"] = $giftWrap;
 
@@ -81,9 +81,9 @@ class Validate
         }
         $shipping = filter_input(INPUT_POST, 'shipping', FILTER_SANITIZE_STRING);
         if (!in_array($shipping, $shippingCostVal)) {
-            self::$error_status["shipping"] = "Please choose a shipping option";
+            self::$error_status["shipping"] = "Please select the shipping method";
             self::$valid_status["shipping_value"] = null;
-            error_log("SHIPPING: empty or outside range");
+            error_log("SHIPPING: empty");
         } else {
             self::$valid_status["shipping_value"] = $shipping;
         }

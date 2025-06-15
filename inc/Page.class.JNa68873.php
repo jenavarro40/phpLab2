@@ -4,7 +4,7 @@ require_once('inc/config.inc.php');
 class Page
 {
     static private $title = "My First Formulary in PHP";
-    static private $studentName = "Javier Enrique Navarro";
+    static private $studentName = "Javier Navarro";
     static private $studentID = "300368873";
 
     // This static function set the HTML header including the title and display the student name and ID
@@ -48,7 +48,7 @@ class Page
     static function showForm($valid_status)
     {
         global $shippingCost;
-        print_r($valid_status);
+        //print_r($valid_status);
         ?>
         <article>
             <section class="main">
@@ -94,19 +94,19 @@ class Page
                                         <option value="express">Express - $15</option>
                                         <option value="priority">Priority - $25</option> -->
                                         <?php
-                                    foreach ($shippingCost as $key => $val){
-                                        if (strtolower($key) === $valid_status['shipping_value'] ){
+                                    foreach ($shippingCost as $key => $val) {
+                                        if (strtolower($key) === $valid_status['shipping_value']) {
                                             echo "<option value=\"" . strtolower($key) . "\" selected>{$key} - {$val}</option>";
                                         } else {
                                             echo "<option value=\"" . strtolower($key) . "\">{$key} - {$val}</option>";
                                         }
                                     }
-                                            ?>
+                                    ?>
                                     </select>
                                 </div>
                                 <div>
                                     <input type="submit" name="submit" value="Submit Order">
-                                    <input type="reset" name="reset" value="Clear Data">
+                                    <input type="submit" name="reset" value="Clear Data">
                                 </div>
                             </fieldset>
                         </form>
@@ -149,8 +149,6 @@ class Page
     // Make sure to calculate the total cost
     static function showData($shippingCost)
     {
-
-
         ?>
          <div class="data">
                     <b>Entered data is:</b>
@@ -158,31 +156,31 @@ class Page
                         
                         <tr>
                             <th>Name</th>
-                            <td><?=$shippingCost[0]["name_value"]?></td>
+                            <td><?= $shippingCost[0]["name_value"] ?></td>
                         </tr>
                         <tr>
                             <th>Email</th>
-                            <td><?=$shippingCost[0]["email_value"]?></td>
+                            <td><?= $shippingCost[0]["email_value"] ?></td>
                         </tr>
                         <tr>
                             <th>Phone</th>
-                            <td><?=$shippingCost[0]["phone_value"]?></td>
+                            <td><?= $shippingCost[0]["phone_value"] ?></td>
                         </tr>
                         <tr>
                             <th>Product Amount</th>
-                            <td><?=$shippingCost[0]["product_value"]?></td>
+                            <td><?= $shippingCost[0]["product_value"] ?></td>
                         </tr>                        
                         <tr>
                             <th>Gift Wrap?</th>
-                            <td><?=$shippingCost[0]["wrap_value"]?></td>
+                            <td><?= $shippingCost[0]["wrap_value"] ?></td>
                         </tr>
                         <tr>                            
                             <th>Shipping</th>                        
-                            <td><?=$shippingCost[0]["shipping_value"]?></td>                        
+                            <td><?= $shippingCost[0]["shipping_value"] ?></td>                        
                         </tr>
                         <tr>                            
                             <th>Total Cost</th>                        
-                            <td><?=$shippingCost[1]?></td>                        
+                            <td>$<?= $shippingCost[1] ?></td>                        
                         </tr>
                     </table>
                 </div>
@@ -190,5 +188,18 @@ class Page
             <?php
 
     }
+
+    static function ShowThankyou()
+    {
+        ?>
+        <section class="sidebar">
+                <!-- Start the page's error notification -->
+                <div class="highlight">
+                    <p>Thank you for your Order</p>
+                                          
+                </div>
+                <?php
+    }
 }
+
 ?>
